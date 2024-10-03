@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class consumatore extends Thread{
 	private int neg;
-	private  LinkedList<Integer> numeri;
+	private  LinkedList<Integer> numeri;  //utilizzo una lista per i cinque numeri positivi di cui devo fare la media
 	private int pos;
 	private int sumpos;
 	buffer b;
